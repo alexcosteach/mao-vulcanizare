@@ -6,11 +6,6 @@ export default function Home() {
       price: "Prețurile variază în funcție de distanță, intervenție și tipul vehiculului.",
     },
     {
-      title: "Vulcanizare mobilă",
-      desc: "Intervenții rapide pentru pene și probleme la roți direct la locația clientului, în funcție de disponibilitate.",
-      price: "Prețurile variază în funcție de distanță, intervenție și tipul vehiculului.",
-    },
-    {
       title: "Schimb anvelope turisme",
       desc: "Demontat/montat anvelope, echilibrare și verificare presiune pentru autoturisme.",
       price: "R12/13/14: 160 lei • R15/16: 170 lei • R17/18: 180 lei • R19/20/21: 220 lei",
