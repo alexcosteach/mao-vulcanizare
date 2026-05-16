@@ -68,7 +68,6 @@ export default function Home() {
     { name: "Nume Angajat 5", role: "Tehnician jante", image: "/team/team-5.jpg" },
     { name: "Nume Angajat 6", role: "Asistență service", image: "/team/team-6.jpg" },
     { name: "Nume Angajat 7", role: "Vulcanizare mobilă", image: "/team/team-7.jpg" },
-    { name: "Nume Angajat 8", role: "Consultant clienți", image: "/team/team-8.jpg" },
   ];
 
   const gallery = [
