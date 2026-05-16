@@ -37,7 +37,7 @@ export default function Home() {
     },
     {
       title: "Încărcare freon AC",
-      desc: "Încărcare freon, verificare și igienizare instalație AC.",
+      desc: "Încărcare freon R134A, freon ecologic Y1234, verificare și igienizare instalație AC.",
       price: "De la 150 lei",
     },
     {
@@ -58,17 +58,6 @@ export default function Home() {
     { name: "Cătălin", text: "Locație foarte bună. Băieții profesioniști, experiență excelentă și servicii de calitate." },
     { name: "Ionica", text: "Super rapizi, serviabili și politicoși. Recomand cu încredere." },
     { name: "Ciprian", text: "Curățenie, profesionalism și atenție la detalii. Foarte mulțumit." },
-  ];
-
-  const team = [
-    { name: "Nume Angajat 1", role: "Specialist vulcanizare", image: "/team/team-1.jpg" },
-    { name: "Nume Angajat 2", role: "Geometrie & service roți", image: "/team/team-2.jpg" },
-    { name: "Nume Angajat 3", role: "Freon & suport clienți", image: "/team/team-3.jpg" },
-    { name: "Nume Angajat 4", role: "Montaj anvelope", image: "/team/team-4.jpg" },
-    { name: "Nume Angajat 5", role: "Tehnician jante", image: "/team/team-5.jpg" },
-    { name: "Nume Angajat 6", role: "Asistență service", image: "/team/team-6.jpg" },
-    { name: "Nume Angajat 7", role: "Vulcanizare mobilă", image: "/team/team-7.jpg" },
-    { name: "Nume Angajat 8", role: "Consultant clienți", image: "/team/team-8.jpg" },
   ];
 
   const gallery = [
@@ -103,7 +92,7 @@ export default function Home() {
             <a href="#servicii" className="hover:text-red-600 transition">Servicii</a>
             <a href="#preturi" className="hover:text-red-600 transition">Prețuri</a>
             <a href="#galerie" className="hover:text-red-600 transition">Galerie</a>
-            <a href="#echipa" className="hover:text-red-600 transition"><Echipamemt></Echipamemt></a>
+            <a href="#echipamente" className="hover:text-red-600 transition">Echipamente</a>
             <a href="#contact" className="hover:text-red-600 transition">Contact</a>
           </div>
 
@@ -127,7 +116,8 @@ export default function Home() {
 
             <p className="mb-8 max-w-2xl text-base leading-relaxed text-zinc-300 sm:text-xl lg:text-2xl">
               MAO Service Roți oferă servicii complete pentru anvelope, jante,
-              geometrie și întreținere rapidă și servicii de incarcare freon R134A și freon ecologic Y1234 direct pe Prelungirea Ghencea.
+              geometrie, întreținere rapidă și servicii de încărcare freon R134A
+              și freon ecologic Y1234, direct pe Prelungirea Ghencea.
             </p>
 
             <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:gap-4">
@@ -209,6 +199,35 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="echipamente" className="bg-zinc-50 px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+        <div className="mx-auto max-w-7xl">
+          <h2 className="mb-8 text-center text-3xl font-black sm:text-5xl lg:text-6xl">
+            Echipamente profesionale
+          </h2>
+          <p className="mx-auto mb-10 max-w-4xl text-center text-base leading-relaxed text-zinc-600 sm:text-xl">
+            MAO Service Roți lucrează cu echipamente profesionale Hunter și Ravaglioli,
+            pentru lucrări precise, rapide și executate corect.
+          </p>
+
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
+            <div className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-xl sm:p-8">
+              <h3 className="mb-4 text-3xl font-black text-red-600">Hunter</h3>
+              <p className="text-base leading-relaxed text-zinc-700 sm:text-lg">
+                Echipamente moderne pentru geometrie, verificare și reglaje precise, folosite pentru stabilitate,
+                siguranță și uzură corectă a anvelopelor.
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-xl sm:p-8">
+              <h3 className="mb-4 text-3xl font-black text-red-600">Ravaglioli</h3>
+              <p className="text-base leading-relaxed text-zinc-700 sm:text-lg">
+                Tehnologie profesională pentru montaj, demontaj, echilibrare și întreținere completă a roților,
+                anvelopelor și jantelor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="bg-zinc-100 px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
         <div className="mx-auto max-w-7xl">
