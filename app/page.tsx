@@ -213,7 +213,7 @@ export default function Home() {
             <div className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-xl sm:p-8">
               <h3 className="mb-4 text-3xl font-black text-red-600">Hunter</h3>
               <p className="text-base leading-relaxed text-zinc-700 sm:text-lg">
-                Echipamente moderne pentru geometrie, verificare și reglaje precise, folosite pentru stabilitate,
+                Echipamente moderne pentru verificare și reglaje precise, folosite pentru stabilitate,
                 siguranță și uzură corectă a anvelopelor.
               </p>
             </div>
@@ -221,7 +221,7 @@ export default function Home() {
             <div className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-xl sm:p-8">
               <h3 className="mb-4 text-3xl font-black text-red-600">Ravaglioli</h3>
               <p className="text-base leading-relaxed text-zinc-700 sm:text-lg">
-                Tehnologie profesională pentru montaj, demontaj, echilibrare și întreținere completă a roților,
+                Tehnologie profesională pentru geometri,montaj, demontaj, echilibrare și întreținere completă a roților,
                 anvelopelor și jantelor.
               </p>
             </div>
