@@ -81,7 +81,7 @@ export default function Home() {
     "/portfolio/mao-equipment-1.jpg",
     "/portfolio/mao-equipment-2.jpg",
     "/portfolio/mao-branding-1.jpg",
-    "/portfolio/mao-branding-2.jpg",
+    "/portfolio/mao-branding-1.jpg",
   ];
 
   return (
