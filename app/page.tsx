@@ -50,6 +50,7 @@ export default function Home() {
       desc: "Îndreptare jante, roluit, extrageri și intervenții speciale.",
       price: "De la 100 lei",
     },
+ 
   ];
 
   const benefits = ["Program rapid", "Echipamente moderne", "Prețuri transparente", "Locație accesibilă"];
