@@ -81,7 +81,6 @@ export default function Home() {
     "/portfolio/mao-equipment-1.jpg",
     "/portfolio/mao-equipment-2.jpg",
     "/portfolio/mao-branding-1.jpg",
-    "/portfolio/mao-branding-1.jpg",
   ];
 
   return (
@@ -104,7 +103,7 @@ export default function Home() {
             <a href="#servicii" className="hover:text-red-600 transition">Servicii</a>
             <a href="#preturi" className="hover:text-red-600 transition">Prețuri</a>
             <a href="#galerie" className="hover:text-red-600 transition">Galerie</a>
-            <a href="#echipa" className="hover:text-red-600 transition">Echipă</a>
+            <a href="#echipa" className="hover:text-red-600 transition"><Echipamemt></Echipamemt></a>
             <a href="#contact" className="hover:text-red-600 transition">Contact</a>
           </div>
 
@@ -128,7 +127,7 @@ export default function Home() {
 
             <p className="mb-8 max-w-2xl text-base leading-relaxed text-zinc-300 sm:text-xl lg:text-2xl">
               MAO Service Roți oferă servicii complete pentru anvelope, jante,
-              geometrie și întreținere rapidă, direct pe Prelungirea Ghencea.
+              geometrie și întreținere rapidă și servicii de incarcare freon R134A și freon ecologic Y1234 direct pe Prelungirea Ghencea.
             </p>
 
             <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:gap-4">
