@@ -48,9 +48,8 @@ export default function Home() {
     {
       title: "Jante și intervenții speciale",
       desc: "Îndreptare jante, roluit, extrageri și intervenții speciale.",
-      price: "De la 100 lei",
+      price: "De la 20 lei",
     },
- 
   ];
 
   const benefits = ["Program rapid", "Echipamente moderne", "Prețuri transparente", "Locație accesibilă"];
@@ -69,6 +68,7 @@ export default function Home() {
     { name: "Nume Angajat 5", role: "Tehnician jante", image: "/team/team-5.jpg" },
     { name: "Nume Angajat 6", role: "Asistență service", image: "/team/team-6.jpg" },
     { name: "Nume Angajat 7", role: "Vulcanizare mobilă", image: "/team/team-7.jpg" },
+    { name: "Nume Angajat 8", role: "Consultant clienți", image: "/team/team-8.jpg" },
   ];
 
   const gallery = [
@@ -82,7 +82,6 @@ export default function Home() {
     "/portfolio/mao-equipment-2.jpg",
     "/portfolio/mao-branding-1.jpg",
     "/portfolio/mao-branding-2.jpg",
-  
   ];
 
   return (
@@ -211,22 +210,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="echipa" className="bg-zinc-50 px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
-        <div className="mx-auto max-w-7xl">
-          <h2 className="mb-10 text-center text-3xl font-black sm:mb-14 sm:text-5xl lg:text-6xl">Echipa noastră</h2>
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-            {team.map((member, index) => (
-              <div key={index} className="overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-xl transition hover:shadow-2xl">
-                <img src={member.image} alt={member.name} className="h-72 w-full object-cover sm:h-80" />
-                <div className="p-6 text-center">
-                  <h3 className="mb-2 text-xl font-black sm:text-2xl">{member.name}</h3>
-                  <p className="text-sm font-bold uppercase tracking-wide text-red-600">{member.role}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <section className="bg-zinc-100 px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
         <div className="mx-auto max-w-7xl">
