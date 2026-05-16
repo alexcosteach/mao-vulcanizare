@@ -48,7 +48,7 @@ export default function Home() {
     {
       title: "Jante și intervenții speciale",
       desc: "Îndreptare jante, roluit, extrageri și intervenții speciale.",
-      price: "De la 20 lei",
+      price: "De la 100 lei",
     },
   ];
 
